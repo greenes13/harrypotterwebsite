@@ -1,0 +1,173 @@
+/*
+
+COLOR PALETTE 
+
+#030000 - black
+#ffffff - white
+#113f60 - dark blue
+#bdb7b7 - dark grey
+#e7e7e7 - light grey  
+#af354e - red
+#bb8e6d - gold/yellow
+
+*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+fieldset {
+	border-top: double 2px;
+	width: 670px;
+	color: #bb8e6d;
+}
+
+body {
+	background-color: #113f60; /* light gray*/
+	font-family: 'open sans', sans-serif;
+	background-image: url("images/clouds_background.jpg");
+}
+
+#container {
+	width: 960px;
+	margin: auto;
+	
+}
+main { 
+	background-color: #e7e7e7;
+	width: 670px;
+	float: left;
+	padding: 10px 20px 10px 20px;
+	height: 600px;
+ }
+	
+ aside { 
+ 	float: right;
+ 	width: 210px;
+ 	background-color: #bdb7b7;
+ 	padding: 20px;
+ 	height: 580px;
+ }
+
+ p {
+ 	font-size: 14px;
+ }
+
+header { 
+	background-color: #113f60; /* dark blue */
+	margin-top: 20px;
+	height: 150px;
+	color: #ffffff;
+	font-weight: bold:
+	font-size: 25px;
+}
+h1 {
+	font-family:'roboto', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 #000000;
+	padding: 25px;
+}
+ 
+h2 {
+	font-family:'roboto', sans-serif;
+	font-weight: bold;
+	color: #af354e; 
+
+}
+
+h3 { 
+	font-color: #000000;
+	font-weight: bold;
+	font-size: 16px;
+	clear: both;
+	padding-top: 10px;
+}
+
+aside h2 { 
+	color: #113f60;
+	text-shadow: 1px 1px 0 #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+nav {
+	font-family:;
+	color: #000000; /* black */ 
+	font-size: 16px;
+	background-color: #bdb7b7; /* light grey */
+	text-align: center;
+	top: 50px;
+	height: 50px;
+	
+}
+nav details ul {
+	list-style-type: none;
+}
+
+nav details ul li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 5px;
+	font-size: 14px;
+}
+
+nav details ul li a {     
+	color: #af354e; /* red */
+
+}
+
+nav details ul li a:visited {
+	color: #af354e;
+}
+
+nav details ul li a:hover, nav details ul li a:visted { 
+		color: #af354e; /* red */
+ }
+.main-images { 
+	width: 220px;
+	padding-left: 20px;
+ }
+.hedwig {
+ 	width: 150px; 
+ 	margin: auto;
+ 	display: block;
+ }
+
+.figure { 
+  		float: right; 
+  }
+
+ main p {
+ 	padding-top: 5px;
+ }
+
+aside p { 
+  		padding-bottom: 15px; 
+  		padding-top: 10px;
+  }
+
+
+figcaption {
+	color: #af354e;
+	font-style: italic;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 5px;
+
+}
+footer { 
+	background-color: #af354e; 
+	font-style: italic;
+	clear: both;
+	color: #ffffff;
+	text-align: center;
+	padding: 5px;
+}
+
+
